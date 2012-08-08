@@ -28,8 +28,8 @@ int main (int argc, const char * argv[]) {
     // le search method
     id searchResult = [d search:@"connor"];
     NSLog(@"%@", searchResult);
-
-	// le info method
+    
+    // le info method
     id infoResult   = [d info:@"cnnr.me"];
     NSLog(@"%@", infoResult);
 
