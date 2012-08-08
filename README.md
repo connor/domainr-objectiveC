@@ -24,6 +24,12 @@ available):
     id infoResult = [d info:@"cnnr.me"];
 
 
+## Output
+
+The return type of both method calls is an `NSDictionary` that mirrors
+the JSON responses Domainr specifies [here](http://domai.nr/api/docs/json#search-api)
+and [here](http://domai.nr/api/docs/json#info-api).
+
 ## Example
 
 I have examples of the method calls in [main.m](https://github.com/connor/domainr-objectiveC/blob/master/main.m). The easiest way to see this in action is

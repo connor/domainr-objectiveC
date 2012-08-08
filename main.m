@@ -28,6 +28,12 @@ int main (int argc, const char * argv[]) {
     id searchResult = [d search:@"connor"];
     NSLog(@"%@", searchResult);
     
+
+    // accessing a value at a specific key of the search method's response
+    NSString *domain = [searchResult objectForKey:@"query"];
+    NSLog(@"%@", domain);
+    
+    
     // le info method
     id infoResult   = [d info:@"cnnr.me"];
     NSLog(@"%@", infoResult);
