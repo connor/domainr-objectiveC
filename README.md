@@ -22,7 +22,13 @@ available):
     // stores the info result in an infoResult variable
     // parameter is a URL passed via a string
     id infoResult = [d info:@"cnnr.me"];
-   
+
+
+## Example
+
+I have an example in [main.m](https://github.com/connor/domainr-objectiveC/blob/master/main.m). The easiest way to see this in action is
+to open the Xcode project up and run it. You will see the log populate
+with the responses from Domainr.   
 
 ## Thanks
 A **huge** thank you to Joshua Russell for his [Dribbble API Wrapper](https://github.com/joshuarussell/Objective-Dribbble),
