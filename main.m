@@ -23,7 +23,6 @@ int main (int argc, const char * argv[]) {
     // the instantiated objects have access to 2 methods:
     //      1. search   (<NSString> query)
     //      2. info     (<NSString> query)
-    
    
     // le search method
     id searchResult = [d search:@"connor"];

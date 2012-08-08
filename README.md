@@ -26,7 +26,7 @@ available):
 
 ## Example
 
-I have an example in [main.m](https://github.com/connor/domainr-objectiveC/blob/master/main.m). The easiest way to see this in action is
+I have examples of the method calls in [main.m](https://github.com/connor/domainr-objectiveC/blob/master/main.m). The easiest way to see this in action is
 to open the Xcode project up and run it. You will see the log populate
 with the responses from Domainr.   
 
