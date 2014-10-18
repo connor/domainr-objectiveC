@@ -27,7 +27,7 @@
 	responseData = [[NSMutableData data] retain];
 	
 	// set up the baseURL object
-	baseURL = [[[NSString alloc] initWithString:@"http://domai.nr/api/json"] stringByAppendingString:urlPath];	
+	baseURL = [[[NSString alloc] initWithString:@"https://domainr.com/api/json"] stringByAppendingString:urlPath];	
 	
 	NSLog(@"----------------------------------------------------------------------");
 	NSLog(@"Connecting to: %@", baseURL);
