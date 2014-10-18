@@ -27,8 +27,8 @@ available):
 ## Output
 
 The return type of both method calls is an `NSDictionary` that mirrors
-the JSON responses Domainr specifies [here](http://domai.nr/api/docs/json#search-api)
-and [here](http://domai.nr/api/docs/json#info-api).
+the JSON responses Domainr specifies [here](https://domainr.com/api/docs/json#search-api)
+and [here](https://domainr.com/api/docs/json#info-api).
 
 ## Example
 
